@@ -1,4 +1,42 @@
 
 body {
-  background-image: url('dylan-warbrick-pixelartresized-1.jpeg');
+  background-image: url('./images/station_bg_train.png');
+  background-position: center center; 
+}
+
+
+.pixelfont {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pink {
+  color: #e60e0e;
+}
+
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.centred {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+
+.container {
+  margin: 50px;
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
