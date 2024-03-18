@@ -1,7 +1,9 @@
 
 body {
   background-image: url('./images/station_bg_train.png');
-  background-position: center center; 
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -12,31 +14,113 @@ body {
   font-style: normal;
 }
 
-.pink {
-  color: #e60e0e;
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
 h1 {
   font-size: 5em;
+  margin-bottom: 0;
 }
 
 h2 {
   font-size: 3em;
+  margin-top: 0;
 }
 
-.centred {
+h3 {
+  font-size: 1.8em;
+}
+
+.title-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.welcome-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.subtitle-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 
-.container {
-  margin: 50px;
-  display: block;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+.btn-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 5em;
   text-align: center;
+}
+
+.pixel-btn {
+    display: inline-block;
+    padding: 20px 35px;
+    background-color: pink;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    border: 5px solid black;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+  }
+  
+  .pixel-btn:hover {
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.content-img-wrapper {
+  position: relative;
+}
+
+
+.content-img {
+  width: 300px; 
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease;
+}
+
+.content-img:hover {
+  transform: scale(1.1); 
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-family: "VT323", monospace;
+  font-size: 1.2em;
+  background-color: antiquewhite;
+  padding: 5px
+}
+
+.content-img-wrapper:hover .text-box {
+  opacity: 1;
+}
+
+.content-img-wrapper:hover .content-img {
+  transform: scale(1.1); 
 }
