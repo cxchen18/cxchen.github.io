@@ -1,0 +1,9 @@
+.horizontal-scrolling {
+    width: 5000px;
+    height: 100vh; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    background-image: url('./images/week5-background.jpeg');
+    background-size: auto 100%; 
+    background-repeat: no-repeat; 
+  }

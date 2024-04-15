@@ -1,9 +1,7 @@
 
 body {
-  background-image: url('./images/station_bg_train.png');
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -20,6 +18,16 @@ body {
   font-style: normal;
 }
 
+/* horizontal scrolling borrowed from chatGPT*/
+.horizontal-scrolling {
+  width: 5000px;
+  height: 100vh; 
+  overflow-x: auto; 
+  white-space: nowrap; 
+  background-image: url('./images/pixel-background-long.jpeg');
+  background-size: auto 100%; 
+  background-repeat: no-repeat; 
+}
 
 h1 {
   font-size: 5em;
@@ -37,14 +45,16 @@ h3 {
 
 .title-container {
   display: flex;
-  justify-content: center; 
+  justify-content: flex-start; 
   align-items: center; 
+  padding-left: 2em;
 } 
 
 .welcome-container {
   display: flex;
-  justify-content: center; 
+  justify-content: flex-start; 
   align-items: center; 
+  padding-left: 1em;
 }
 
 .subtitle-container {
@@ -55,11 +65,38 @@ h3 {
 
 
 .btn-container {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 5em;
+  position: absolute;
   text-align: center;
+}
+
+.week1-btn {
+  margin-left: 85em;
+  bottom: 8em;
+}
+
+.week2-btn {
+  margin-left: 110em;
+  bottom: 8em;
+}
+
+.week3-btn {
+  margin-left: 135em;
+  bottom: 8em;
+}
+
+.week4-btn {
+  margin-left: 160em;
+  bottom: 8em;
+}
+
+.week5-btn {
+  margin-left: 185em;
+  bottom: 8em;
+}
+
+.week6-btn {
+  margin-left: 210em;
+  bottom: 8em;
 }
 
 .pixel-btn {
