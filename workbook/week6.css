@@ -7,3 +7,9 @@
     background-size: auto 100%; 
     background-repeat: no-repeat; 
   }
+
+
+  .sound-button {
+    margin-left: 40%;
+    bottom: 8em;
+  }
