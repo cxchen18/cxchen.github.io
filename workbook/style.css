@@ -59,7 +59,7 @@ h3 {
 
 .subtitle-container {
   display: flex;
-  justify-content: center; 
+  justify-content: flex-start; 
   align-items: center; 
 }
 
@@ -138,12 +138,23 @@ h3 {
   transition: transform 0.3s ease;
 }
 
+.hunt-gather {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 85em;
+  gap: 20px;
+  margin-bottom: 3em;
+}
+
+
 .content-img:hover {
-  transform: scale(1.1); 
+  transform: scale(1.5); 
 }
 
 .text-box {
   position: absolute;
+  white-space: normal; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -160,5 +171,5 @@ h3 {
 }
 
 .content-img-wrapper:hover .content-img {
-  transform: scale(1.1); 
+  transform: scale(1.5); 
 }
