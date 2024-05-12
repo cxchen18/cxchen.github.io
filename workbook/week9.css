@@ -1,0 +1,33 @@
+.horizontal-scrolling {
+    width: 5000px;
+    height: 100vh; 
+    overflow-x: auto; 
+    white-space: nowrap; 
+    background-image: url('./images/week6-background.jpeg');
+    background-size: auto 100%; 
+    background-repeat: no-repeat; 
+  }
+
+
+  .sound-button {
+    margin-left: 40%;
+    bottom: 8em;
+  }
+
+  .return-btn {
+    margin-left: 2em;
+  }
+
+
+  .wrapper {
+    display: flex;
+  }
+
+  .body {
+    background-color: white;
+    margin-left: 2rem;
+  }
+
+  .content-img {
+    margin-left: 2rem;
+  }

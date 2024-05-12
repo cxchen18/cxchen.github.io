@@ -69,6 +69,10 @@ h3 {
   text-align: center;
 }
 
+.return-btn {
+  margin-left: 2em;
+}
+
 .week1-btn {
   margin-left: 85em;
   bottom: 8em;
@@ -96,6 +100,21 @@ h3 {
 
 .week6-btn {
   margin-left: 210em;
+  bottom: 8em;
+}
+
+.week7-btn {
+  margin-left: 235em;
+  bottom: 8em;
+}
+
+.week8-btn {
+  margin-left: 260em;
+  bottom: 8em;
+}
+
+.week9-btn {
+  margin-left: 285em;
   bottom: 8em;
 }
 
@@ -147,6 +166,12 @@ h3 {
   margin-bottom: 3em;
 }
 
+.class-activities {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20em;
+  margin-bottom: 3em;
+}
 
 .content-img:hover {
   transform: scale(1.5); 
@@ -190,4 +215,18 @@ h3 {
 
 .content-img-wrapper:hover .content-img {
   transform: scale(1.5); 
+}
+
+
+.return-btn {
+  margin-left: 2em;
+}
+
+
+.wrapper {
+  display: flex;
+}
+
+.body {
+  background-color: white;
 }
